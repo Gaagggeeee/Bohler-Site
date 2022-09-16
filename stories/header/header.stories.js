@@ -7,13 +7,6 @@ export default {
   component: Header,
   argTypes: {
     backgroundColor: { control: 'color' },
-    label: { control: 'text' },
-    onClick: { action: 'onClick' },
-    primary: { control: 'boolean' },
-    size: {
-      control: { type: 'select' },
-      options: ['small', 'medium', 'large'],
-    },
   },
 };
 
